@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../inc/aux.h"
 
 int fahr;
 
@@ -15,6 +16,8 @@ main(int argc, char *argv[])
     {
         printf("%4d%9.1f\n", fahr, 5.0 / 9.0 * (fahr -32));
     }
+
+    hello();
 
     return 0;
 }

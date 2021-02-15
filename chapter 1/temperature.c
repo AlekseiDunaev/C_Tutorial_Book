@@ -13,7 +13,7 @@ main(int argc, char *argv[])
 
     for (fahr = LOW; fahr <= HIGH; fahr += STEP)
     {
-        printf("%4d%9.1f\n", fahr, 5.0 / 9.0 * (fahr -32));
+        printf("%4d%9.1f\n", fahr, 5.0 / 9.0 * (fahr - 32));
     }
 
     return 0;

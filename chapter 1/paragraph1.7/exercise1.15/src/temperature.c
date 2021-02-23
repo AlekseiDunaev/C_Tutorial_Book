@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "../inc/temperature.h"
 
 int fahr;
 
@@ -21,7 +21,8 @@ main(int argc, char *argv[])
     return 0;
 }
 
-float FtoC (int fahr)
+float
+FtoC (int fahr)
 {
     return (5.0/9.0 * (fahr - 32));
 } 

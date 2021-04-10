@@ -25,7 +25,7 @@ VPATH := $(DIRS)
 
 .PHONY:	all prep clear test 
 
-all: prep release
+all: test prep release
 
 release: $(RELBIN)
 
@@ -66,3 +66,5 @@ test:
 	@echo
 	@echo RELOBJS: $(RELOBJS)
 	@echo DBGOBJS: $(DBGOBJS)
+	@echo
+	@echo VPATH: $(VPATH)
